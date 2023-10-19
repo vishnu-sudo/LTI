@@ -20,11 +20,13 @@ git clone<repository_url>
 
 
 bashCopy code
+
 git checkout -b new-branch-name 
 
 • Or, to switch to an existing branch, use:
 
 bashCopy code
+
 git checkout branch-name 
 
 
@@ -36,10 +38,13 @@ git checkout branch-name
 • Stage the changes you want to commit using:
 
 bashCopy code
+
 git add file1 file2 ... 
+
 • Commit the staged changes with a descriptive commit message:
 
 bashCopy code
+
 git commit -m "Your commit message here"
 
 
@@ -47,6 +52,7 @@ git commit -m "Your commit message here"
 • Push your changes to the remote repository on the same branch you're working on:
 
 bashCopy code
+
 git push origin branch-name 
 
 
